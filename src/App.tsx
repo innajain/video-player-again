@@ -192,9 +192,9 @@ function App() {
       } else if (e.key === "ArrowLeft" && !e.ctrlKey) {
         captureHold(startSmoothSeekingBackward);
       } else if (e.key === "ArrowRight" && e.ctrlKey) {
-        seekForward(10);
+        seekForward(60);
       } else if (e.key === "ArrowLeft" && e.ctrlKey) {
-        seekBackward(10);
+        seekBackward(60);
       } else if ("0123456789".includes(e.key)) {
         changeCurrentTimeByPercentage(+e.key);
       } else if (e.key === ".") {
